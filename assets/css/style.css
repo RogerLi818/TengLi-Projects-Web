@@ -8,12 +8,12 @@
     box-sizing: border-box;
     margin:0;
     padding:0;
+    text-decoration: none;
 }
 /* universal ends */
 
 body{
     font-family: Arial, Helvetica, sans-serif;  
-
 }
 
 
@@ -34,9 +34,7 @@ header{
 header h1{
     font-weight:bold;
     margin: 0;
-    font-size: 50px;
-
-    
+    font-size: 50px;    
 }
 
 header a{
@@ -64,8 +62,7 @@ header nav ul li a {
     text-decoration: none;
   }
 
-header nav ul li a:hover {
-   
+header nav ul li a:hover {   
     color: purple;
     border-radius: 15px;
     text-shadow: none;
@@ -121,6 +118,12 @@ footer a {
     margin-top:50px;
     font-size: 40px;
 }
+
+.subtitle nav ul{
+    list-style: none;
+    text-align: right;
+    
+}
 /* subtitle ends */
 
 /* About Me starts */
@@ -132,6 +135,7 @@ footer a {
     align-items: center;
     padding:20px 80px;
 }
+
 .rogerli{
     flex:1 60%;
     margin-right:20px;
@@ -164,10 +168,8 @@ footer a {
     justify-content:space-around;
     padding:20px 80px;
     align-items:center;
-    background-color: var(--background-color);
-   
+    background-color: var(--background-color);   
 }
-
 
 .works-list{
     display:flex;
