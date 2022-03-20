@@ -7,7 +7,8 @@
 /* universal ends */
 
 body{
-    font-family: Arial, Helvetica, sans-serif
+    font-family: Arial, Helvetica, sans-serif;  
+
 }
 
 
@@ -64,6 +65,7 @@ header nav ul li a:hover {
     border-radius: 15px;
     text-shadow: none;
   }
+/* header ends */
 
 
 /* footer start here  */
@@ -98,7 +100,7 @@ footer a {
     font-size:25px;
 }
 
-/* footer ends here */
+/* footer ends */
 
   /* subtitle need cloud image in the image folder */
 .subtitle{
@@ -156,7 +158,20 @@ footer a {
 .works{
     display:flex;
     flex-wrap:wrap;
-    justify-content:space-between
+    justify-content:space-around;
+    padding:80px;
+    align-items:center;
+}
+
+
+.works-list{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-around;
+    border-left:3px solid;
+    flex:1;
+    margin-left:104px;
+    padding:20px;
 
 }
 
@@ -165,23 +180,47 @@ footer a {
 }
 
 .projects{
-    flex:1 0 0;
-    padding:10px;
-    text-align: center;
-    border-style: solid;
-    border-width: 1px;
-    flex:0 0 400px;
-
-
+    border:6px solid #e7a25d;
+    flex: 0 0 200px;
+    display:flex;
 }
 
-.projects img{
-    width:50%;
-    min-width:300px;
-}
+
 
 #run-buddy{
-    width:100%
+    width:100%;
+    min-height:400px;
+    min-width:400px;
+    flex:1 0 400px;
+    background:url(../images/work-1.jpg);
+    margin-bottom:20px;
+}
+
+#work2{
+    background:url(../images/work-2.jpg);    
+}
+#work3{
+    background:url(../images/work-3.jpg);    
+}
+#work4{
+    background:url(../images/work-4.jpg);    
+}
+#work5{
+    background:url(../images/work-5.jpg);    
+}
+
+.other-projects{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-between;
+    width: 100%;
+    min-width: 400px;
+    min-height: 160px;
+}
+
+.works-list h3{
+    padding:20px red;
+    color:#e7a25d
 }
 
 /* my work ends*/
