@@ -1,3 +1,8 @@
+
+:root{
+    --background-color: #cce6ff;
+}
+
 /* universal start */
 *{   
     box-sizing: border-box;
@@ -18,7 +23,7 @@ header{
     display:flex;
     justify-content:space-between;
     flex-wrap:wrap;
-    background-color:#D6D6D6;
+    background-color:var(--background-color);
     background-size:cover;
     background-attachment:fixed;
     background-position:80%;
@@ -30,7 +35,7 @@ header h1{
     font-weight:bold;
     margin: 0;
     font-size: 50px;
-    text-shadow: 0 0 10px;
+
     
 }
 
@@ -75,7 +80,7 @@ footer {
     justify-content: space-between;
     flex-wrap: wrap;
     width: 100%;
-    background-color: #cce6ff;
+    background-color: var(--background-color);
     display:flex;
     justify-content:space-between;
     flex-wrap:wrap;
@@ -125,7 +130,7 @@ footer a {
     justify-content:space-around;
     flex-wrap:wrap;
     align-items: center;
-    padding:80px
+    padding:20px 80px;
 }
 .rogerli{
     flex:1 60%;
@@ -139,14 +144,12 @@ footer a {
     margin-right:20px;
     flex:1 50%;
     max-width:30%;
-    display:flex;
 }
 
 .bio{
     display:flex;
     flex-wrap:wrap;
-    flex:12;
-    font-size:18px;
+    font-size:25px;
     align-items:center;
 
 }
@@ -159,8 +162,9 @@ footer a {
     display:flex;
     flex-wrap:wrap;
     justify-content:space-around;
-    padding:80px;
+    padding:20px 80px;
     align-items:center;
+    background-color: var(--background-color);
 }
 
 
@@ -184,8 +188,6 @@ footer a {
     flex: 0 0 200px;
     display:flex;
 }
-
-
 
 #run-buddy{
     width:100%;
@@ -218,12 +220,44 @@ footer a {
     min-height: 160px;
 }
 
-.works-list h3{
-    padding:20px red;
-    color:#e7a25d
+.wording{
+    background-color: red;
+    margin-top: 95px;
+    border: 3px blue solid;
 }
 
+.bigwork{
+    margin-top: 320px;
+    width:200px;
+}
+
+
 /* my work ends*/
+
+/* Contact start */
+#Contact{
+    display:flex;
+    padding:20px 80px;
+    background-color: var(--background-color);
+}
+
+.contact-content{
+    padding: 40px;
+    border-left: 3px solid;
+    margin-left: 40px;
+    display:flex;
+    flex-wrap:wrap;
+    text-decoration: underline;
+}
+
+
+
+#Contact div p{
+    display:flex;
+    flex-wrap:wrap;
+    font-size:25px;
+    padding:20px;
+}
 
 /* editing all titles*/
 .section-title{
@@ -231,3 +265,4 @@ footer a {
     align-items: center; 
     margin:auto 35px;
 }
+
