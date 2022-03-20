@@ -235,10 +235,6 @@ footer a {
     margin: 20px;
 }
 
-
-
-
-
 #run-buddy img{
     width:100%;
     opacity:0;
@@ -256,10 +252,6 @@ footer a {
     padding:20px;
     border: 5px solid grey
 }
-
-
-
-
 /* my work ends*/
 
 /* Contact start */
@@ -278,19 +270,146 @@ footer a {
     text-decoration: underline;
 }
 
-
-
 #Contact div p{
     display:flex;
     flex-wrap:wrap;
     font-size:25px;
     padding:20px;
 }
+/* contact ends */
 
 /* editing all titles*/
 .section-title{
     font-size:50px;
     align-items: center; 
     margin:auto 35px;
+    text-align:center;
 }
+/* all titles ends */
 
+/* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
+@media screen and (max-width: 980px) {
+    header {
+      padding-bottom: 0;
+      justify-content: center;
+      position: relative;
+    }
+  
+    header h1 {
+      width: 100%;
+      text-align: center;
+    }
+  
+    header nav ul {
+      margin-top: 20px;
+      width: 100%;
+      justify-content: center;
+    }
+  
+    header nav ul li a {
+      font-size: 20px;
+    }
+  
+    footer h2, footer div {
+      text-align: center;
+      width: 100%;
+    }
+  
+  
+    .section-title {
+      width: 80%;
+      padding: 20px;
+      border-bottom: 3px solid;
+      margin-bottom: 20px;
+    } 
+
+
+    .rogerli {
+        border-left:none;
+    }
+
+    .works-list {
+        border-left:none;
+        margin-left:0;
+    }
+
+    #Contact{
+        flex-wrap:wrap;
+    }
+    .contact-content{
+        border-left:none;
+    }
+    
+
+  
+  /* MEDIA QUERY FOR TABLETS AND SMALLER */
+  @media screen and (max-width: 768px) {
+   
+    .Aboutme{
+        padding:0 20px;
+    }
+
+    .works{
+        padding:0 20px;
+    }
+
+    #Contact{
+        padding:0 20px;
+    }
+
+    .bio{
+        font-size: 19px;
+    }
+
+    #Contact div p{
+        font-size:20px;
+    }
+
+    .contact-content{
+        padding:20px;
+    }
+  
+    
+  
+  /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
+  @media screen and (max-width: 575px) {
+    
+    .subtitle{
+        padding:40px 60px;
+    }
+    
+    .bio{
+        font-size:18px
+    }
+
+    .rogerli img{
+        max-width:34%;
+    }
+    
+    #work2{
+        flex: 0 0 100%;
+        margin: 10px 0 0 0;        
+    }
+
+    #work3{
+        flex: 0 0 100%;
+        margin: 10px 0 0 0;        
+    }
+
+    #work4{
+        flex: 0 0 100%;
+        margin: 10px 0 0 0;        
+    }
+
+    #work5{
+        flex: 0 0 100%;
+        margin: 10px 0 0 0;        
+    }
+
+    .contact-content{
+        display:block;
+    }
+  
+  }
+}
+}
