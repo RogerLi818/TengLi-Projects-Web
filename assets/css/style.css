@@ -165,6 +165,7 @@ footer a {
     padding:20px 80px;
     align-items:center;
     background-color: var(--background-color);
+   
 }
 
 
@@ -176,39 +177,11 @@ footer a {
     flex:1;
     margin-left:104px;
     padding:20px;
-
+    width:70%;
 }
 
 .projects header{
     background-color: antiquewhite;
-}
-
-.projects{
-    border:6px solid #e7a25d;
-    flex: 0 0 200px;
-    display:flex;
-}
-
-#run-buddy{
-    width:100%;
-    min-height:400px;
-    min-width:400px;
-    flex:1 0 400px;
-    background:url(../images/work-1.jpg);
-    margin-bottom:20px;
-}
-
-#work2{
-    background:url(../images/work-2.jpg);    
-}
-#work3{
-    background:url(../images/work-3.jpg);    
-}
-#work4{
-    background:url(../images/work-4.jpg);    
-}
-#work5{
-    background:url(../images/work-5.jpg);    
 }
 
 .other-projects{
@@ -220,16 +193,71 @@ footer a {
     min-height: 160px;
 }
 
-.wording{
-    background-color: red;
-    margin-top: 95px;
-    border: 3px blue solid;
+.projects{
+    border:10px solid rgb(70,70,163);
+    position:relative;
+    width:50%
 }
 
-.bigwork{
-    margin-top: 320px;
-    width:200px;
+#run-buddy{
+    width:100%;
+    position:relative;   
+    border: 10px solid rgb(70, 70, 163);
+    background:url(../images/work-1.jpg);
+    background-size: cover; 
 }
+
+#work2{
+    background:url(../images/work-2.jpg); 
+    background-size: cover;   
+    flex: 0 0 300px;
+    margin: 20px;
+}
+
+#work3{
+    background:url(../images/work-3.jpg);    
+    background-size: cover;
+    flex: 0 0 300px;
+    margin: 20px;
+}
+
+#work4{
+    background:url(../images/work-4.jpg);  
+    background-size: cover;
+    flex: 0 0 300px;
+    margin: 20px;
+}  
+
+#work5{
+    background:url(../images/work-5.jpg);  
+    background-size: cover;  
+    flex: 0 0 300px;
+    margin: 20px;
+}
+
+
+
+
+
+#run-buddy img{
+    width:100%;
+    opacity:0;
+}
+
+.projects a img{
+    width:100%;
+    opacity:0;
+}
+
+.discription{
+    position: absolute;
+    bottom:20px;
+    background-color: rgb(226, 226, 187);
+    padding:20px;
+    border: 5px solid grey
+}
+
+
 
 
 /* my work ends*/
