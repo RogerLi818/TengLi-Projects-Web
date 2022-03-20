@@ -2,13 +2,13 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./assets/css/style.css">
     <title>TengLi</title>
   </head>
   <body>
       <!--navi tags start-->
-      <header>
+      <header class ="">
           <h1>
           <a href = "index.html">Teng Li</a>
           </h1>
@@ -33,13 +33,12 @@
 
       <!-- subtitle start-->
       <section class="subtitle">
-
-
+          <h2 class="title">Peace and Love</h2>
       </section>
       <!-- end of subtitle -->
 
       <!-- About Me start -->
-      <section id="AboutMe">
+      <section id="AboutMe" class ="Aboutme">
         <h2>About Me</h2>
         <p>
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum quae temporibus sint vero aperiam, nihil, eligendi inventore, nam suscipit rem libero sit quo natus dolor. Explicabo quas molestias ut aut?
@@ -49,8 +48,34 @@
       <!-- About Me End -->
 
       <!-- Work start -->
-      <section id="Work">
-          <h2>Work</h2>
+      <section id="Work" class="works">
+          <h2 class="title">Work</h2>
+
+          <section class="projects" id="run-buddy">
+              <img src="./assets/images/work-1.jpg" alt="my first work" />
+              <h3>Rub Buddy</h3>              
+              <p>my first work</p>
+          </section>
+          <section class="projects">
+            <img src="./assets/images/work-2.jpg" alt="my second work" />
+            <h3>work-2</h3>            
+            <p>my second work</p>
+        </section>
+        <section class="projects">
+            <img src="./assets/images/work-3.jpg" alt="my third work" />
+            <h3>work-3</h3>            
+            <p>my third work</p>
+        </section>
+        <section class="projects">
+            <img src="./assets/images/work-4.jpg" alt="my forth work" />
+            <h3>work-4</h3>            
+            <p>my fourth work</p>
+        </section>
+        <section class="projects">
+            <img src="./assets/images/work-5.jpg" alt="my fifth work" />
+            <h3>work-5</h3>                       
+            <p>my fifth work</p>
+        </section>
 
       </section>
       <!-- Work end -->
@@ -58,7 +83,12 @@
 
       <!-- Contact start -->
       <section id="Contact">
-          <h2>Contact</h2>
+          <h2 class="title">Contact</h2>
+          <p>
+              <phone>Phone :888-888-8888</phone>
+              Email: <a href="mailto:rogerliteng@gmail.com">rogerliteng@gmail.com</a>
+              <a href="https://www.facebook.com/teng.li.921" >Facebook</a>
+          </p>
 
       </section>
       <!-- Contact end -->
@@ -66,9 +96,12 @@
       <!-- footer -->
       <footer>
         <h2>Welcome to my Space</h2>
-        <div>
+        <div class="myresume">
           <a href="./assets/resume/Resume. Roger Li 07-23-20.pdf" id="Resume">My Resume</a><br/>
-          &copy; 2022 Teng Li
+         
+        </div>
+        <div>
+            &copy; 2022 Teng Li
         </div>
       </footer>
       <!-- footer end -->
